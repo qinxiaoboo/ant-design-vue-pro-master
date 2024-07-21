@@ -44,7 +44,7 @@ export default {
       loadScheduleData: () => {
         return new Promise((resolve) => {
           const data = this.$store.state.system.dictinfo
-          console.log('data:', this.data)
+          console.log('data:', data)
 
           resolve({
             data: data,
