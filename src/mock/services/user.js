@@ -20,7 +20,7 @@ const info = options => {
     roleId: 'admin',
     role: {}
   }
-  // role
+  // tasks
   const roleObj = {
     id: 'admin',
     name: '管理员',
